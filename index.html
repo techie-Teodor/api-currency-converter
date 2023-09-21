@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter with ExchangeRate-API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mooli&family=Raleway&family=Roboto+Condensed&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1" id="amount">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://www.worldometers.info/img/flags/ro-flag.gif" alt="flag">
+                        <select>
+                            <option value="RON">RON</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="AUD">AUD</option>
+                            <option value="JPY">JPY</option>
+                            <option value="CAD">CAD</option>
+                            <option value="CHF">CHF</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="flag">
+                        <select>
+                            <option value="RON">RON</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="AUD">AUD</option>
+                            <option value="JPY">JPY</option>
+                            <option value="CAD">CAD</option>
+                            <option value="CHF">CHF</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">
+                1 RON = 0.24 USD
+                <button>Get Exchange Rate</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
