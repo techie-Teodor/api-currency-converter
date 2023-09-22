@@ -23,7 +23,7 @@
                 <div class="from">
                     <p>From</p>
                     <div class="select-box">
-                        <img src="https://www.worldometers.info/img/flags/ro-flag.gif" alt="flag">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
                         <select>
                             <option value="RON">RON</option>
                             <option value="USD">USD</option>
@@ -42,10 +42,10 @@
                 <div class="to">
                     <p>To</p>
                     <div class="select-box">
-                        <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="flag">
+                        <img src="https://flagsapi.com/RO/flat/64.png" alt="flag">
                         <select>
-                            <option value="RON">RON</option>
                             <option value="USD">USD</option>
+                            <option value="RON">RON</option>
                             <option value="EUR">EUR</option>
                             <option value="GBP">GBP</option>
                             <option value="AUD">AUD</option>
@@ -57,10 +57,13 @@
                 </div>
             </div>
             <div class="exchange-rate">
-                1 RON = 0.24 USD
+                <span id="rateDisplay">1 RON = 0.24 USD</span>
                 <button>Get Exchange Rate</button>
             </div>
         </form>
     </div>
+    <script src="./js/country-list.js"></script>
+    <script src="./js/script.js"></script>
+
 </body>
 </html>
