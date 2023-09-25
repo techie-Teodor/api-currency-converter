@@ -20,3 +20,6 @@ Currency Converter App in HTML, CSS &amp; JavaScript with ExchangeRate-API
 
 * Improve the design of the app
 * Add animation library for javascript
+
+### Live Website
+<a href="https://techie-teodor.github.io/api-currency-converter/"> Live deployment </a>
